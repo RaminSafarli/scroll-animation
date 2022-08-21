@@ -9,10 +9,6 @@ function scrollAnimate() {
 
   boxes.forEach((box) => {
     let boxTop = box.getBoundingClientRect().top;
-    console.log("////////////////////");
-    console.log(boxTop);
-    console.log(windowHeight);
-    console.log("--------------------");
 
     if (boxTop < windowHeight) {
       box.classList.add("show");
